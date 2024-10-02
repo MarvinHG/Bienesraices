@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raices</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <img src="build/img/logo.svg" alt="Logotipo Bienes Raices">
+                </a>
+                <div class="mobile-menu">
+                        <img src="build/img/barras.svg" alt="icono menu responsive">
+                </div><!-- .mobile-menu -->
+                <div class="derecha">
+                    <img class="dark-mode-boton" src="build/img/dark-mode.svg" alt="Dark Mode">
+                    <nav class="navegacion">
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="anuncios.html">Anuncios</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>
+                </div> <!--.derecha-->  
+            </div><!--.barra-->
+        </div><!--.contenedor .contenido-header-->
+    </header>
+    <main class="contenedor seccion contenido-centrado">
+        <h1>Casa en venta frente al bosque</h1>
+        
+        <picture>
+            <source srcset="build/img/destacada.webp" type="image/webp">
+            <source srcset="build/img/destacada.jpg" type="image/jpeg">
+                <img loading="lazy" src="build/img/destacada.jpg" alt="Imagen Propiedad">
+        </picture>
+
+        <div class="resumen-propiedad">
+            <p class="precio">$3,000,000</p>
+            <ul class="iconos-caracteristicas">
+                <li>
+                    <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="Icono WC">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="Icono Estacionamiento">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="Icono Dormitorio">
+                    <p>4</p>
+                </li>
+            </ul>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam recusandae, aut at ea explicabo cum accusamus praesentium dolorum et? Magni eos minima ipsum quia in, deserunt nobis ut velit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, distinctio! Aliquam perspiciatis saepe voluptates inventore dicta accusantium iusto assumenda, at ducimus repudiandae maiores deleniti, ea id fugit hic voluptate dignissimos?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam recusandae, aut at ea explicabo cum accusamus praesentium dolorum et? Magni eos minima ipsum quia in, deserunt nobis ut velit.
+            </p>
+        </div> <!-- .resumen-propiedad -->
+    </main>
+
+    <footer class="footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div> 
+        <p class="copyright">Todos los derechos Reservados 2023 &copy;</p>
+    </footer>
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
